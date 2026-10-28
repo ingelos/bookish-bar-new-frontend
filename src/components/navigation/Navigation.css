@@ -1,0 +1,30 @@
+nav {
+    width: 100%;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    height: 5em;
+    color: var(--color-secondary);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 1200px;
+    margin: 0 5em; 
+}
+
+.nav-link-container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 300px;
+    list-style: none;
+}
+
+.nav-menu-link a {
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: var(--color-secondary);
+    padding-right: 3em;
+}
